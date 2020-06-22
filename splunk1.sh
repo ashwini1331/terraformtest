@@ -1,8 +1,8 @@
 #!bin/bash
      if [ $(id -u) -eq 0 ]; then
-	read -p "administrator username : " admin
-	read -s -p "enter password : " 12345678
-	read -s -p "Renter password : "12345678
+	read -p "administrator username : admin
+	read -s -p "enter password : 12345678
+	read -s -p "Renter password :12345678
 	egrep "^$username" /etc/passwd >/dev/null
 	if [ $? -eq 0 ]; then
 		echo "$username exists!"
