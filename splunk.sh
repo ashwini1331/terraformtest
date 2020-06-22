@@ -4,7 +4,8 @@
      cd ../
      sudo /opt/splunk/bin/splunk start --accept-license
      useradd -p 12345678,12345678 admin
-     #!bin/bash
+    
+ #!bin/bash
      if [ $(id -u) -eq 0 ]; then
 	read -p "administrator username : " admin
 	read -s -p "enter password : " 12345678
